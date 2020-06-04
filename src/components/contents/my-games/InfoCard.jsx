@@ -36,7 +36,7 @@ export default function InfoCard({
               >
                 {platformsName.join(' / ')}
               </p>
-              <p className="infoGenre">{genresName.join(' / ')}</p>
+              {/* <p className="infoGenre">{genresName.join(' / ')}</p> */}
             </div>
           </div>
           <div className="InfoMain">
@@ -45,14 +45,14 @@ export default function InfoCard({
               <p>{summary}</p>
             </div>
           </div>
-          {artworksUrl.length > 0 ? <h2 className="artworkSection">Artworks :</h2> : ''}
+          {/* {artworksUrl.length > 0 ? <h2 className="artworkSection">Artworks :</h2> : ''}
           <div className="Images">
             {artworksUrl.map(artwork => (
               <div>
                 <img src={artwork} alt="artwork of the game" className="CoverSupp" />
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
         <div />
       </section>
